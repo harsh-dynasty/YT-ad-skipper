@@ -1,7 +1,7 @@
 {
-  "name": "My YT Bookmarks",
-  "version": "0.1.0",
-  "description": "Saving timestamps in YT videos",
+  "name": "Youtube AD Skipper",
+  "version": "1.0.0",
+  "description": "Skips in-video ads and closes advertisement banners automatically.",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*.youtube.com/*"],
   "background": {
@@ -15,12 +15,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": [
-        "assets/bookmark.png",
-        "assets/play.png",
-        "assets/delete.png",
-        "assets/save.png"
-      ],
+      "resources": [],
       "matches": ["https://*.youtube.com/*"]
     }
   ],
@@ -30,7 +25,7 @@
       "24": "assets/ext-icon.png",
       "32": "assets/ext-icon.png"
     },
-    "default_title": "My YT Bookmarks",
+    "default_title": "YT AD Skipper",
     "default_popup": "popup.html"
   },
   "manifest_version": 3
